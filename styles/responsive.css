@@ -1,0 +1,275 @@
+/* responsive style */
+@media (max-width: 1199px){
+    /* featured category style */
+    .sj_featured_category {
+        padding: 100px 0;
+    }
+    .featured_title_wrap {
+        margin-bottom: 35px;
+    }
+    .featured_image_wrap {
+        max-height: 400px;
+    }
+    .featured_image_wrap,
+    .showcase_image_wrap{
+        margin-bottom: 20px;
+    }
+    /* product showcase style */
+    .sj_product_showcase{
+        padding: 100px 0;
+    }
+    .product_showcase_title {
+        margin-bottom: 35px;
+    }
+    .product_showcase_btn {
+        margin-top: 50px;
+    }
+    /* discount style */
+    .sj_discount {
+        padding-bottom: 100px;
+    }
+    .discount_info_wrap h1 {
+        margin-bottom: 12px;
+    }
+    .discount_info_wrap p {
+        margin: 0 auto 30px auto;
+    }
+    .discount_sale, .discount_gifts {
+        padding: 120px 16px;
+    }
+    /* discount style */
+    /* collection style */
+    .sj_collection {
+        padding: 0 0 100px 0;
+    }
+    .collection_main {
+        grid-column-gap: 65px;
+        grid-row-gap: 65px;
+    }
+    .collection_description h6 {
+        margin-bottom: 10px;
+    }
+    .collection_description h2 {
+        margin-bottom: 10px;
+    }
+    /* collection style */
+    /* new collection style */
+    .sj_new_collection {
+        padding: 100px 0;
+    }
+    .new_collection_main {
+        grid-column-gap: 65px;
+        grid-row-gap: 65px;
+    }
+    .new_collection_content h6 {
+        margin-bottom: 10px;
+    }
+    .new_collection_content h2 {
+        margin-bottom: 15px;
+    }
+    .new_collection_content p {
+        margin-bottom: 30px;
+    }
+    .new_collection_lists {
+        margin-bottom: 50px;
+    }
+    /* new collection style */
+    /* summer sale style */
+    .sj_summer_sale{
+        padding: 0 0 100px 0;
+    }
+    /* summer sale style */
+    /* your testimonial style */
+    .sj_testimonial{
+        padding: 0 0 100px 0;
+    }
+    .testimonial_content{
+        margin-bottom: 30px;
+    }
+    .testimonial_content h6,
+    .testimonial_content h2{
+        margin-bottom: 10px;
+    }
+    /* your testimonial style */
+    /* our shipping style */
+    .sj_our_shipping{
+        padding: 50px 0;
+    }
+    /* our shipping style */
+}
+@media (max-width: 991px){
+    .sj_container{
+        padding: 0 30px;
+    }
+    /* featured category style */
+    .sj_featured_category {
+        padding: 80px 0;
+    }
+    .featured_title_wrap {
+        margin-bottom: 30px;
+    }
+    .featured_image_wrap,
+    .showcase_image_wrap {
+        margin-bottom: 15px;
+    }
+    /* product showcase style */
+    .sj_product_showcase{
+        padding: 80px 0;
+    }
+    .product_showcase_title {
+        margin-bottom: 30px;
+    }
+    .showcase_image_wrap {
+        max-height: 400px;
+    }
+    .product_showcase_btn {
+        margin-top: 40px;
+    }
+    /* discount style */
+    .sj_discount {
+        padding-bottom: 80px;
+    }
+    .discount_info_wrap h1 {
+        margin-bottom: 8px;
+    }
+    .discount_info_wrap p {
+        margin: 0 auto 25px auto;
+    }
+    .discount_sale, .discount_gifts {
+        padding: 100px 16px;
+    }
+    /* discount style */
+    /* collection style */
+    .sj_collection {
+        padding: 0 0 80px 0;
+    }
+    .collection_main {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+    }
+    /* collection style */
+    /* new collection list style */
+    .sj_new_collection {
+        padding: 80px 0;
+    }
+    .new_collection_content h2 {
+        margin-bottom: 10px;
+    }
+    .new_collection_content p {
+        margin-bottom: 20px;
+    }
+    .new_collection_main {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+    }
+    /* new collection list style */
+    /* summer sale style */
+    .sj_summer_sale{
+        padding: 0 0 80px 0;
+    }
+    /* summer sale style */
+    /* your testimonial style */
+    .sj_testimonial{
+        padding: 0 0 80px 0;
+    }
+    .testimonial_content{
+        margin-bottom: 20px;
+    }    
+    /* your testimonial style */    
+    /* our shipping style */
+    .sj_our_shipping{
+        padding: 40px 0;
+    }
+    /* our shipping style */
+}
+@media(max-width: 767px){
+    .sj_container{
+        padding: 0 16px;
+    }
+    /* my cart style */
+    .cart_subtotal_wrap {
+        margin: 0 0 12px 0;
+    }
+    .cart_item_wrap {
+        gap: 15px;
+    }
+    .cart_item_wrap .cart_item_img {
+        width: 80px;
+        height: 80px;
+    }
+    .cart_item_actions {
+        gap: 10px;
+    }
+    /* feaured category style */
+    .sj_featured_category {
+        padding: 50px 0;
+    }
+    .featured_title_wrap {
+        margin-bottom: 25px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .featured_image_wrap {
+        margin-bottom: 10px;
+    }
+    /* product showcase style */
+    .sj_product_showcase{
+        padding: 50px 0;
+    }
+    .product_showcase_title {
+        margin-bottom: 25px;
+    }
+    .showcase_image_wrap {
+        margin-bottom: 10px;
+    }
+    .product_showcase_btn {
+        margin-top: 35px;
+    }
+    /* discpunt style */
+    .sj_discount {
+        padding-bottom: 50px;
+    }
+    .discount_main_wrap {
+        grid-template-columns: 1fr;
+    }
+    /* collection style */
+    .sj_collection {
+        padding: 0 0 50px 0;
+    }
+    .collection_main {
+        grid-template-columns: 1fr;
+    }
+    .collection_image_wrap {
+        order: 1;
+    }
+    /* new collection list style */
+    .sj_new_collection {
+        padding: 50px 0px;
+    }
+    .new_collection_main {
+        grid-template-columns: 1fr;
+    }
+    .new_collection_content p {
+        margin-bottom: 15px;
+    }
+    .new_collection_lists {
+        margin-bottom: 40px;
+    }
+    /* summer sale style */
+    .sj_summer_sale{
+        padding: 0 0 60px 0;
+    }
+    /* summer sale style */
+    /* your testimonial style */
+    .sj_testimonial{
+        padding: 0 0 50px 0;
+    }
+    /* your testimonial style */
+    /* our shipping style */
+    .sj_our_shipping{
+        padding: 30px 0;
+    }
+    /* our shipping style */
+}

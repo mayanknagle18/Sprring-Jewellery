@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MelodramaMedium';
+    src: url('fonts/MelodramaMedium.eot');
+    src: url('fonts/MelodramaMedium.eot') format('embedded-opentype'),
+         url('fonts/MelodramaMedium.woff2') format('woff2'),
+         url('fonts/MelodramaMedium.woff') format('woff'),
+         url('fonts/MelodramaMedium.ttf') format('truetype'),
+         url('fonts/MelodramaMedium.svg#MelodramaMedium') format('svg');
+}

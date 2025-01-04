@@ -1,0 +1,8 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 15" width="16" height="15">
+	<title>cross_icon-svg</title>
+	<style>
+		.s0 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.5 } 
+	</style>
+	<path fill-rule="evenodd" class="s0" d="m14 1.5l-12 12"/>
+	<path fill-rule="evenodd" class="s0" d="m2 1.5l12 12"/>
+</svg>

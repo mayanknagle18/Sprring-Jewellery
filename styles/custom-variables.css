@@ -1,0 +1,63 @@
+/* variable style */
+:root{
+    /* colors */
+    --white-color: #ffffff;
+    --light-white-color: #ebf3f5;
+    --light-white-color-10: #ffffff1c;
+    --primary-color: #2e4343;
+    --light-primary-color: #d9dce1;
+    --dark-primary-color: #222222;
+    --secondary-color: #688181;
+    --light-black-color: #2e434326;
+    --light-green-color: #d4e1e3;
+    --light-black-color-10: #00000040;
+    --light-black-color-20: #02020026;
+    --light-black-color-30: #2e434366;
+    --gray-color: #56595a;
+    /* border */
+    --border-radius-4: 4px;
+    --border-radius-6: 6px;
+    /* fonts */
+    --inter-regular: 'Inter_Regular';
+    --inter-semi-bold: 'Inter_SemiBold';
+    --inter-bold: 'Inter_Bold';
+    --melodrama-regular: 'Melodrama_Regular';
+    --melodrama-medium: 'Melodrama_Medium';
+}
+
+/* inter font family */
+@font-face {
+    font-family: 'Inter_Regular';
+    src: url('../fonts/Inter/Inter_Regular/Inter_18ptRegular.woff2') format('woff2'),
+         url('../fonts/Inter/Inter_Regular/Inter_18ptRegular.woff') format('woff'),
+         url('../fonts/Inter/Inter_Regular/Inter_18ptRegular.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'Inter_SemiBold';
+    src: url('../fonts/Inter/Inter_SemiBold/Inter_18ptSemiBold.woff2') format('woff2'),
+         url('../fonts/Inter/Inter_SemiBold/Inter_18ptSemiBold.woff') format('woff'),
+         url('../fonts/Inter/Inter_SemiBold/Inter_18ptSemiBold.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'Inter_Bold';
+    src: url('../fonts/Inter/Inter_Bold/Inter_18ptBold.woff2') format('woff2'),
+         url('../fonts/Inter/Inter_Bold/Inter_18ptBold.woff') format('woff'),
+         url('../fonts/Inter/Inter_Bold/Inter_18ptBold.ttf') format('truetype'),
+}
+
+/* melodrama font family */
+@font-face {
+    font-family: 'Melodrama_Regular';
+    src: url('../fonts/Melodrama/Melodrama_Regular/MelodramaRegular.woff2') format('woff2'),
+         url('../fonts/Melodrama/Melodrama_Regular/MelodramaRegular.woff') format('woff'),
+         url('../fonts/Melodrama/Melodrama_Regular/MelodramaRegular.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'Melodrama_Medium';
+    src: url('../fonts/Melodrama/Melodrama_Medium/MelodramaMedium.woff2') format('woff2'),
+         url('../fonts/Melodrama/Melodrama_Medium/MelodramaMedium.woff') format('woff'),
+         url('../fonts/Melodrama/Melodrama_Medium/MelodramaMedium.ttf') format('truetype'),
+}
