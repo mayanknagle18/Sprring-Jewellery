@@ -271,3 +271,22 @@
     padding: 60px 0;
 }
 /* our shipping style */
+
+/* shop by category style */
+.sj_shop_by_category {
+    padding: 120px 0;
+}
+
+.shop_by_category_title h2{
+    margin-bottom: 30px;
+}
+
+.sj_tabs{
+    margin-bottom: 30px;
+}
+
+.shop_by_category_btn{
+    text-align: center;
+    margin-top: 60px;
+}
+/* shop by category style */
