@@ -57,6 +57,9 @@
     border: 1px solid var(--gray-color);
     color: var(--gray-color);
     background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cart_item_actions .delete_item img{

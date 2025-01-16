@@ -55,6 +55,12 @@
     width: 100%;
 }
 
+.navbar_logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .navbar_logo .header_logo{
     display: block;
     width: 147px;
@@ -141,6 +147,12 @@
 
 /* media style */
 
+@media (max-width: 1199px){
+    .navbar_nav {
+        gap: 35px;
+    }
+}
+
 @media (max-width: 991px){
     .hamburger_btn_wrap{
         display: block;
@@ -165,6 +177,10 @@
     .navbar_nav .nav_item .nav_link{
         font-size: 15px;
         line-height: 25px;
+    }
+    .navbar_logo {
+        position: static;
+        transform: unset;
     }
 }
 
