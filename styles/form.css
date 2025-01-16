@@ -37,3 +37,30 @@
     height: 100%;
     resize: none;
 }
+
+@media(max-width: 991px){
+    .sj_label {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 7px;
+    }
+    .sj_input {
+        padding: 10px 14px;
+        height: 36px;
+        min-height: 46px;
+    }
+    .sj_textarea {
+        min-height: 130px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px){
+    .sj_label {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .sj_input {
+        padding: 8px 12px;
+    }
+}

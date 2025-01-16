@@ -290,3 +290,90 @@
     margin-top: 60px;
 }
 /* shop by category style */
+
+/* contact style */
+.hero_contact_wrap{
+    padding: 100px 50px 100px 60px;
+}
+
+.sj_contact_us{
+    padding: 120px 0;
+}
+
+.contact_us_content {
+    max-width: 720px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+.contact_us_content h2{
+    margin-bottom: 16px;
+}
+
+form.sj_form {
+    max-width: 752px;
+    margin: 0 auto;
+}
+
+.form_wrap_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    margin-bottom: 16px;
+}
+
+.sj_form .sj_label_input_wrap .sj_textarea{
+    margin-bottom: 40px;
+}
+
+.sj_form .sj_btn,
+.sj_form .sj_btn_wrap{
+    width: 100%;
+}
+/* contact style */
+
+/* our location style */
+.sj_our_location{
+    padding: 0 0 120px 0;
+}
+
+.our_location_wrap {
+    background-image: url("../assets/images/background/our_location_bg.jpg");
+    padding: 20px 20px 60px 60px;
+    height: 540px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: var(--border-radius-4);
+}
+
+.location_card {
+    padding: 24px;
+    max-width: 240px;
+    background-color: #ffffff;
+    width: 100%;
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+
+.location_card h4{
+    margin-bottom: 32px;
+}
+
+.showroom_wrap{
+    margin-bottom: 20px;
+}
+
+.showroom_wrap:last-child{
+    margin-bottom: 0px;
+}
+
+.showroom_wrap h6{
+    font-family: var(--inter-bold);
+    margin-bottom: 8px;
+}
+/* our location style */

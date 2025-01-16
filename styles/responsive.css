@@ -105,6 +105,44 @@
         margin-top: 50px;
     }
     /* shop by category style */
+    /* contact us style */
+    .hero_contact_wrap {
+        padding: 80px 40px 80px 50px;
+    }
+    .sj_contact_us{
+        padding: 100px 0;
+    }
+    .contact_us_content h2 {
+        margin-bottom: 10px;
+    }
+    .contact_us_content {
+        margin: 0 auto 30px auto;
+    }
+    /* contact us style */
+    /* our location style */
+    .sj_our_location{
+        padding: 0 0 100px 0;
+    }
+    .our_location_wrap {
+        padding: 20px 20px 50px 50px;
+        height: 500px;
+    }
+    .location_card {
+        padding: 20px;
+        max-width: 220px;
+        bottom: 50px;
+        left: 50px;
+    }
+    .location_card h4 {
+        margin-bottom: 25px;
+    }
+    .showroom_wrap {
+        margin-bottom: 15px;
+    }
+    .showroom_wrap h6 {
+        margin-bottom: 5px;
+    }
+    /* our location style */
 }
 @media (max-width: 991px){
     .sj_container{
@@ -196,19 +234,40 @@
     .sj_shop_by_category {
         padding: 80px 0;
     }
-    
     .shop_by_category_title h2{
         margin-bottom: 20px;
     }
-    
     .sj_tabs{
         margin-bottom: 20px;
     }
-
     .shop_by_category_btn{
         margin-top: 40px;
     }
     /* shop by category style */
+    /* contact us style */
+       .hero_contact_wrap {
+        padding: 60px 30px 60px 40px;
+    }
+    .sj_contact_us{
+        padding: 80px 0;
+    }
+    .sj_form .sj_label_input_wrap .sj_textarea {
+        margin-bottom: 30px;
+    }
+    /* contact us style */
+    /* our location style */
+    .sj_our_location{
+        padding: 0 0 80px 0;
+    }
+    .our_location_wrap {
+        padding: 15px 15px 40px 40px;
+        height: 480px;
+    }
+    .location_card {
+        bottom: 40px;
+        left: 40px;
+    }
+    /* our location style */
 }
 @media(max-width: 767px){
     .sj_container{
@@ -306,4 +365,42 @@
         margin-top: 35px;
     }
     /* shop by category style */
+    /* contact us style */
+    .hero_contact_wrap {
+        padding: 25px;
+    }
+    .sj_contact_us{
+        padding: 50px 0;
+    }
+    .contact_us_content h2 {
+        margin-bottom: 7px;
+    }
+    .contact_us_content {
+        margin: 0 auto 20px auto;
+    }
+    .form_wrap_main {
+        grid-template-columns: 1fr;
+        grid-column-gap: 12px;
+        grid-row-gap: 12px;
+        margin-bottom: 12px;
+    }
+    /* contact us style */
+    /* our location style */
+    .sj_our_location{
+        padding: 0 0 50px 0;
+    }
+    .our_location_wrap {
+        padding: 15px 15px 25px 25px;
+        height: 450px;
+    }
+    .location_card {
+        padding: 15px;
+        max-width: 200px;
+        bottom: 25px;
+        left: 25px;
+    }
+    .location_card h4 {
+        margin-bottom: 20px;
+    }
+    /* our location style */
 }
